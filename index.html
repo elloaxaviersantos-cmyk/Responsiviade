@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ponto Doce — Padaria</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__logo">Ponto Doce 🥐</div>
+
+    <button class="header__toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav class="header__nav" id="menuNav">
+      <a href="#produtos">Produtos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Pão quentinho todo dia</h1>
+    <p>Do forno para a sua mesa, em qualquer tamanho de tela.</p>
+  </section>
+
+  <section id="produtos" class="products">
+    <h2>Nossos produtos</h2>
+    <div class="products__grid">
+
+      <article class="card">
+        <div class="card__img card__img--1"></div>
+        <h3>Pão Francês</h3>
+        <p>Crocante por fora, macio por dentro.</p>
+      </article>
+      <article class="card">
+        <div class="card__img card__img--2"></div>
+        <h3>Bolo de Chocolate</h3>
+        <p>Feito com chocolate 70% cacau.</p>
+      </article>
+      <article class="card">
+        <div class="card__img card__img--3"></div>
+        <h3>Croissant</h3>
+        <p>Amanteigado, folhado, perfeito.</p>
+      </article>
+      <article class="card">
+        <div class="card__img card__img--4"></div>
+        <h3>Café Coado</h3>
+        <p>Torra média, direto da fazenda.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__text">
+      <h2>Nossa história</h2>
+      <p>
+        A Ponto Doce nasceu em 2010, em uma pequena esquina do bairro.
+        Hoje continuamos fazendo tudo à mão, todos os dias, do jeito
+        que sempre fizemos.
+      </p>
+    </div>
+    <div class="about__highlight">
+      <strong>+10 anos</strong>
+      <span>servindo o bairro com carinho</span>
+    </div>
+  </section>
+
+  <section class="breakpoint-demo">
+    <p>Redimensione a janela: esta faixa muda de cor conforme o breakpoint ativo (mobile / tablet / desktop).</p>
+  </section>
+
+  <footer id="contato" class="footer">
+    <p>&copy; 2026 Ponto Doce. Feito com carinho para a aula de Front-end.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
